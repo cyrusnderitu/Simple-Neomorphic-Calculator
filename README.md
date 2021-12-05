@@ -1,9 +1,9 @@
 # Simple-Neomorphic-Calculator
 
-##Description
+## Description
 A simple, web based, neomorphic calculator that is for beginners who want to get their hands dirty after learning JavaScript.
 
-##Review
+## Review
 For review:
 
 https://cyrusnderitu.github.io/Simple-Neomorphic-Calculator/
