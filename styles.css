@@ -13,12 +13,12 @@
 }
 input{
     border-radius: 20px;
-    background: #ecf0f3;
     text-align: end;
     margin: auto;
     padding: 2rem;
-    box-shadow: inset -5px -5px 12px #fff,
-                inset  5px 5px 12px rgba(0, 0, 0, .16);
+    background: #e0e0e0;
+    box-shadow: inset 10px 10px 30px #bebebe,
+                inset -10px -10px 30px #ffffff;
     height: 3rem;
     width: 200px;
     margin-bottom: .75rem;
@@ -33,9 +33,9 @@ input{
 }
 .calculator{
     padding: 20px;
-    background-color: #ecf0f3;
-    box-shadow: inset 5px 5px 12px #fff,
-                5px 5px 12px rgba(0, 0, 0, .16);
+    background: #e0e0e0;
+    box-shadow:  10px 10px 25px #bebebe,
+                 -10px -10px 25px #ffffff;
     border-radius: 15px;
 }
 .grid{
@@ -49,9 +49,9 @@ button{
     height: 50px;
     outline: none;
     border: none;
-    background: #ecf0f3;
     border-radius: 50%;
     padding: .25rem;
-    box-shadow: inset 5px 5px 12px #fff,
-                        5px 5px 12px rgba(0, 0, 0, .16);
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  10px 10px 25px #bebebe,
+                 -10px -10px 25px #ffffff;
 }
