@@ -14,25 +14,24 @@
 input{
     border-radius: 20px;
     text-align: end;
-    margin: auto;
     padding: 2rem;
     background: #e0e0e0;
     box-shadow: inset 10px 10px 30px #bebebe,
                 inset -10px -10px 30px #ffffff;
     height: 3rem;
-    width: 200px;
-    margin-bottom: .75rem;
+    width: 270px;
+    margin-bottom: 1rem;
     outline: none;
 }
 .num{
     border: none;
-    grid-column: span 3;
+    grid-column: span 4;
     padding: 2px;
     font-size: large;
     padding: 20px;
 }
 .calculator{
-    padding: 20px;
+    padding: 50px 20px;
     background: #e0e0e0;
     box-shadow:  10px 10px 25px #bebebe,
                  -10px -10px 25px #ffffff;
@@ -41,7 +40,8 @@ input{
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 65px);
-    gap: .5rem;
+    column-gap: .5rem;
+    row-gap: 1rem;
 }
 button{
     margin: auto;
@@ -58,6 +58,13 @@ button{
     font-weight: 400;
 }
 button:focus{
+    animation: focus .4s all;
     box-shadow: inset 10px 10px 30px #bebebe,
-            inset -10px -10px 30px #ffffff;
+                inset -10px -10px 30px #ffffff;
+}
+@keyframes focus{
+    100%{
+        box-shadow:  10px 10px 25px #bebebe,
+        -10px -10px 25px #ffffff; 
+    }   
 }
