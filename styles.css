@@ -58,13 +58,7 @@ button{
     font-weight: 400;
 }
 button:focus{
-    animation: focus .4s all;
     box-shadow: inset 10px 10px 30px #bebebe,
                 inset -10px -10px 30px #ffffff;
 }
-@keyframes focus{
-    100%{
-        box-shadow:  10px 10px 25px #bebebe,
-        -10px -10px 25px #ffffff; 
-    }   
-}
+
