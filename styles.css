@@ -27,7 +27,7 @@ input{
     border: none;
     grid-column: span 4;
     padding: 2px;
-    font-size: large;
+    font-size: 1.5rem;
     padding: 20px;
 }
 .calculator{
@@ -54,11 +54,16 @@ button{
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
     box-shadow:  10px 10px 25px #bebebe,
                  -10px -10px 25px #ffffff;
-    transition: .4s;
+    transition: .5s;
     font-weight: 400;
 }
 button:focus{
     box-shadow: inset 10px 10px 30px #bebebe,
                 inset -10px -10px 30px #ffffff;
+}
+.calc{
+    grid-column: span 2;
+    padding: 0 4rem;
+    border-radius: 15px;
 }
 
