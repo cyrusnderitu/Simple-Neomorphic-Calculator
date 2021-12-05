@@ -11,25 +11,25 @@
     <div class="container">
         <div class="calculator grid">
             <input type="text" id="num" class="num" placeholder="0">
-            <button type="submit">C</button>
-            <button type="submit">DEL</button>
-            <button type="submit">%</button>
-            <button type="submit">/</button>
-            <button type="submit">9</button>
-            <button type="submit">8</button>
-            <button type="submit">7</button>
-            <button type="submit">*</button>
-            <button type="submit">6</button>
-            <button type="submit">5</button>
-            <button type="submit">4</button>
-            <button type="submit">-</button>
-            <button type="submit">3</button>
-            <button type="submit">2</button>
-            <button type="submit">1</button>
-            <button type="submit">+</button>
-            <button type="submit">.</button>
-            <button type="submit">0</button>
-            <button type="submit">=</button>
+            <button class ="btn" onclick="clear()">Cl</button>
+            <button class ="btn" onclick="del()">DEL</button>
+            <button class ="btn" onclick="display('%')"type="submit">%</button>
+            <button class ="btn" onclick="display('/')"type="submit">/</button>
+            <button class ="btn" onclick="display('9')"type="submit">9</button>
+            <button class ="btn" onclick="display('8')"type="submit">8</button>
+            <button class ="btn" onclick="display('7')"type="submit">7</button>
+            <button class ="btn" onclick="display('*')"type="submit">*</button>
+            <button class ="btn" onclick="display('6')"type="submit">6</button>
+            <button class ="btn" onclick="display('5')"type="submit">5</button>
+            <button class ="btn" onclick="display('4')"type="submit">4</button>
+            <button class ="btn" onclick="display('-')"type="submit">-</button>
+            <button class ="btn" onclick="display('3')"type="submit">3</button>
+            <button class ="btn" onclick="display('2')"type="submit">2</button>
+            <button class ="btn" onclick="display('1')"type="submit">1</button>
+            <button class ="btn" onclick="display('+')"type="submit">+</button>
+            <button class ="btn" onclick="display('.')"type="submit">.</button>
+            <button class ="btn" onclick="display('0')"type="submit">0</button>
+            <button class ="btn calc" onclick="Calc('=')" type="submit">=</button>
         </div>
     </div>
     <script src="./app.js"></script>
