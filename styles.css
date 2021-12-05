@@ -40,7 +40,7 @@ input{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 65px);
+    grid-template-columns: repeat(4, 65px);
     gap: .5rem;
 }
 button{
@@ -54,4 +54,10 @@ button{
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
     box-shadow:  10px 10px 25px #bebebe,
                  -10px -10px 25px #ffffff;
+    transition: .4s;
+    font-weight: 400;
+}
+button:focus{
+    box-shadow: inset 10px 10px 30px #bebebe,
+            inset -10px -10px 30px #ffffff;
 }
