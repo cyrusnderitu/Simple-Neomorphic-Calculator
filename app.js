@@ -26,5 +26,8 @@ function Calc(){
     }
 }
 function clear(){
-    screen.value = "";
+    screen.value = '';
+}
+function del(){
+    screen.value = screen.value.slice(0, -1)
 }
