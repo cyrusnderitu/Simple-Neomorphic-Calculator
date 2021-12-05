@@ -25,9 +25,10 @@ function Calc(){
         alert("invalid")
     }
 }
-function clear(){
+
+function clr(){
     screen.value = '';
 }
-function del(){
+function dlt(){
     screen.value = screen.value.slice(0, -1)
 }
